@@ -98,7 +98,8 @@
         "format": "{}",
         "rewrite": {
         "(.*) — Mozilla Firefox": "󰈹  $1",
-        "vi (.*)": "$1"
+        "vi (.*)": "$1",
+        "Yazi: (.*)": "󰇥  $1"
         // "(.*) - kitty": "󰄛  $1"
         },
         "separate-outputs": true
