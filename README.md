@@ -6,7 +6,19 @@ The repository contains my dot files for Linux system.
 
 The repo contains a global bash script `.bash_global` and a `.config` directory with configuration files for various applications.
 
-The applications are not mandatory to be installed, but the configuration files are there in case you want to use them. The applications are: Yazi, Neovim, Alacritty, Kitty, Tmux, waybar, Swaylock, Hyprland, Hyprpaper, Hypridle, wlogout, rofi. 
+### bash configuration
+
+The `.bash_global` file is sourced by the `.bashrc` file and contains global variables and functions that are used by the shell. It will source all the files inside `.bash_config/` directory, where so far has `.aliases`, `.bash_prompt`, `.functions` and `.hushlogin`.
+
+### App configuration
+
+The applications are not mandatory to be installed, but the configuration files are there in case you want to use them. The applications are: 
+
+- Terminal: Alacritty, Kitty, Tmux, Yazi;
+- Editor: Neovim;
+- Window manager: Hyprland, Hyprpaper, Hyprpaper, Swaylock, Swaybar, Wlogout, Rofi;
+
+<!-- Yazi, Neovim, Alacritty, Kitty, Tmux, waybar, Swaylock, Hyprland, Hyprpaper, Hypridle, wlogout, rofi.  -->
 
 ## Requirements
 
