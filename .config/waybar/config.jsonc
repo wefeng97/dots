@@ -98,7 +98,7 @@
         "format": "{}",
         "rewrite": {
         "(.*) — Mozilla Firefox": "󰈹  $1",
-        "vi (.*)": "$1",
+        "vi (.*)": "  $1",
         "Yazi: (.*)": "󰇥  $1"
         // "(.*) - kitty": "󰄛  $1"
         },
@@ -132,12 +132,12 @@
         "interval": 5
     },
     "network": {
-        "format-wifi" : "{icon}  {essid}",
+        "format-wifi" : "{icon}  ⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
         "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"],
         "format-ethernet": "󰀂",
         "format-alt" : "󱛇",
         "format-disconnected" : "󰖪",
-        "tooltip-format-wifi": "{icon} {essid}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
+        "tooltip-format-wifi": "{icon} {essid}",
         "tooltip-format-ethernet": "󰀂  {ifname}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
         "tooltip-format-disconnected": "Disconnected",
         "on-click": "~/.config/rofi/wifi/wifi.sh &",
