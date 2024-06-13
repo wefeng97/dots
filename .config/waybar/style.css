@@ -113,7 +113,7 @@ window#waybar {
 }
 #network {
     background-color: rgba(30, 30, 46, 0.5);
-    color: #e06666;
+    color: #fe91f0;
     border-radius: 0px;
     margin: 5px;
     margin-left: 0px;
@@ -124,7 +124,7 @@ window#waybar {
 
 #wireplumber {
     background-color: rgba(30, 30, 46, 0.5);
-    color: #d9ff00;
+    color: #FABD2D;
     border-radius: 16px 0px 0px 16px;
     margin: 5px;
     margin-left: 5px;
@@ -135,8 +135,8 @@ window#waybar {
 
 #backlight {
     background-color: rgba(30, 30, 46, 0.5);
-    color: #faebd7;
     border-radius: 0px;
+    color: #fff7fc;
     margin: 5px;
     margin-left: 0px;
     margin-right: 0px;
@@ -146,7 +146,7 @@ window#waybar {
 
 #bluetooth{
     background-color: rgba(30, 30, 46, 0.5);
-    color: #FABD2D;
+    color: #fff73b;
     border-radius: 0px;
     margin: 5px;
     margin-left: 0px;
@@ -157,7 +157,9 @@ window#waybar {
 
 #tray {
     /* background: #282828; */
-    background: rgba(102,102,255,0.7);
+    /* background: rgba(102,102,255,0.7); */
+    background: rgba(30, 30, 46, 0.5);
+    color: #FABD2D;
     margin: 5px 5px 5px 5px;
     border-radius: 16px;
     padding: 0px 5px;
