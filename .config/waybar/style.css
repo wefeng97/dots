@@ -53,7 +53,7 @@ window#waybar {
 
 .modules-center {
     background-color: rgba(30, 30, 46, 0.6);
-    border-radius: 10px;
+    border-radius: 16.5px;
     padding-left: 5px;
     padding-right: 5px;
     margin-right: 0px;
@@ -102,14 +102,23 @@ window#waybar {
     /* background-color: #282828; */
     border-radius: 0px 0px 0px 0px;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 0px;
     margin-right: 0px;
     margin-left: 0px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-weight: bold;
     /* font-family: "Noto Sans CJK KR Regular"; */
     /*border-left: solid 1px #282738;*/
+}
+#custom-weather {
+    color: #deaded;
+    /* background-color: #282828; */
+    border-radius: 8px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px 10px;
+    font-weight: bold;
 }
 #network {
     background-color: rgba(30, 30, 46, 0.5);

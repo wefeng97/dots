@@ -2,7 +2,7 @@
     "layer": "top",
     "position": "top",
     "spacing": 0,
-    "height": 36,
+    "height": 33,
     "modules-left": [
         "custom/logo",
         "wlr/taskbar",
@@ -10,7 +10,8 @@
         "hyprland/window"
     ],
     "modules-center": [
-        "clock"
+        "clock",
+        "custom/weather"
     ],
     "modules-right": [
         "group/media",
@@ -192,9 +193,17 @@
             "transition-duration": 1500,
             "children-class": "not-battery",
             "transition-left-to-right": false
-        },
-
+        }
     },
+
+    "custom/weather": {
+      "format": "{}°C",
+      "tooltip": true,
+      "interval": 3600,
+      "exec": "wttrbar --hide-conditions --date-format '%d/%m/%y' --location 'Zurich Switzerland'",
+      "return-type": "json"
+    },
+
     "custom/logo": {
         "format": "  ",
         "tooltip": false,
