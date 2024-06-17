@@ -61,7 +61,7 @@
     "on-click": "activate",
     "on-click-middle": "close",
     "on-click-right": "fullscreen",
-    "active-first": true,
+    // "active-first": true,
     "ignore-list": [
        "kitty"
     ],
