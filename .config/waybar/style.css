@@ -11,8 +11,13 @@
 
 window#waybar {
     background: rgba(30, 30, 46, 0.5);
-    border-bottom: 1px solid #282828;
-    color: #f4d9e1
+    /* border-bottom: 1px solid #9400D3; */
+    /* border-bottom-color: #00FF00; */
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+  border-image: linear-gradient(90deg,rgba(255,0,0,0.7),rgba(255,127,0,0.7),rgba(255,255,0,0.7),rgba(0,255,0,0.7),rgba(0,0,255,0.7),rgba(75,0,130,0.7),rgba(148,0,211,0.7)) 1;
+    /* border: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);; */
+    /* color: #f4d9e1 */
 }
 
 #workspaces {
