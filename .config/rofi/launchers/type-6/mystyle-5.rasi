@@ -9,20 +9,20 @@
 
 /*****----- Configuration -----*****/
 configuration {
-	modi:                       "drun,run,filebrowser,window,emoji";
+	modi:                       "drun,run,filebrowser,window";
     show-icons:                 true;
     display-drun:               "APPS";
     display-run:                "RUN";
     display-filebrowser:        "FILES";
     display-window:             "WINS";
-    display-emoji:             "EMOJI";
+    /*display-emoji:             "EMOJI";*/
 	drun-display-format:        "{name}";
 	window-format:              "{w} · {c} · {t}";
 }
 
 /*****----- Global Properties -----*****/
 * {
-    font:                        "Comic Sans MS 16";
+    font:                        "Comic Sans MS 12";
     background:                  #231419;
     background-alt:              #2D1E23;
     foreground:                  #FFFFFF;
@@ -38,7 +38,7 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       1300px;
+    width:                       900px;
     x-offset:                    0px;
     y-offset:                    0px;
 
