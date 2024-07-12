@@ -12,7 +12,7 @@
 
 mode=$1
 dir="$HOME/.config/rofi/"
-theme='config'
+theme='mystyle-5'
 
 ## Run
 rofi \
