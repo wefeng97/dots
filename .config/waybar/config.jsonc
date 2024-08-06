@@ -205,7 +205,7 @@
       "format": "{}°C",
       "tooltip": true,
       "interval": 3600,
-      "exec": "wttrbar --hide-conditions --date-format '%d/%m/%y' --location 'Zurich Switzerland'",
+      "exec": "wttrbar --hide-conditions --date-format '%d/%m/%y' --location 'St. Moritz'",
       "return-type": "json"
     },
 
