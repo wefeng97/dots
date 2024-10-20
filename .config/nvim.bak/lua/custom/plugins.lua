@@ -273,6 +273,11 @@ local plugins={
             require("chatgpt").setup({
       })
     end,
+  },
+
+  {
+    "yuratomo/w3m.vim",
+    event="VeryLazy",
   }
 
 }
