@@ -4,9 +4,9 @@ vim.g.mapleader = " "
 local keymap = vim.keymap
 
 -- General keymaps
-keymap.set("n", "<leader>wq", ":wq<CR>") -- save and quit
-keymap.set("n", "<leader>qq", ":q!<CR>") -- quit without saving
-keymap.set("n", "<leader>ww", ":w<CR>") -- save
+-- keymap.set("n", "<leader>wq", ":wq<CR>") -- save and quit
+-- keymap.set("n", "<leader>qq", ":q!<CR>") -- quit without saving
+-- keymap.set("n", "<leader>ww", ":w<CR>") -- save
 keymap.set("n", "gx", ":!open <c-r><c-a><CR>") -- open URL under cursor
 
 -- Split window management
@@ -20,8 +20,8 @@ keymap.set("n", "<leader>sl", "<C-w>>5") -- make split windows width bigger
 keymap.set("n", "<leader>sh", "<C-w><5") -- make split windows width smaller
 
 -- Tab management
-keymap.set("n", "<leader>to", ":tabnew<CR>") -- open a new tab
-keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close a tab
+keymap.set("n", "<leader>o", ":tabnew ") -- open a new tab
+-- keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close a tab
 -- Customised
 keymap.set("n", "<tab>", ":tabn<CR>") -- next tab
 keymap.set("n", "<S-tab>", ":tabp<CR>") -- previous tab
