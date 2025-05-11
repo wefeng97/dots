@@ -233,6 +233,12 @@ window#waybar {
     border-radius: 0px 24px 24px 0px;
 }
 
+#battery.critical:not(.charging) {
+    background-color: #f7768e;
+    color: #24283b;
+    border-radius: 0px 24px 24px 0px;
+}
+
 window#waybar.empty #window {
     background-color: transparent;
 }
