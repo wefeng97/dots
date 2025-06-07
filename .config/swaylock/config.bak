@@ -1,16 +1,17 @@
-ignore-empty-password
-no-unlock-indicator
+# no-unlock-indicator
 image=/home/wefeng/Pictures/My_Wallpapers/SpiritedAway/wp8575978.png 
 # indicator
-# clock 
-fade-in=3 
+indicator-idle-visible
+indicator-radius=70
+clock
+# fade-in=3 
+line-uses-inside
 inside-color=<FFE5BF>
-ring-color=<62B9E9> 
-key-hl-color=<FFE5BF> 
+ring-color=<000000> 
+# key-hl-color=<FFE5BF> 
 separator-color=<FFE5BF> 
-# grace=3 --indicator-idle-visible 
-font="ComicShanns mono nerd font" 
-text-color=62b9e9 
+indicator-idle-visible
+font=ComicShanns mono nerd font
+text-color=<62B9E9> 
 indicator-x-position=100 
 indicator-y-position=100
-line-uses-inside
