@@ -37,14 +37,14 @@ return {
       }
     })
 
-    local lspconfig = require('lspconfig')
+    local lspconfig = vim.lsp.config
     local lsp_capabilities = require('cmp_nvim_lsp').default_capabilities()
     local lsp_attach = function(client, bufnr)
       -- Create your keybindings here...
     end
 
     -- Call setup on each LSP server
-    require('mason-lspconfig').setup_handlers({
+    require('mason-lspconfig').setup({
       function(server_name)
         lspconfig[server_name].setup({
           on_attach = lsp_attach,
@@ -54,16 +54,16 @@ return {
     })
 
     -- Lua LSP settings
-    lspconfig.lua_ls.setup {
-      settings = {
-        Lua = {
-          diagnostics = {
-            -- Get the language server to recognize the `vim` global
-            globals = {'vim'},
-          },
-        },
-      },
-    }
+    -- lspconfig.enable {
+    --   settings = {
+    --     Lua = {
+    --       diagnostics = {
+    --         -- Get the language server to recognize the `vim` global
+    --         globals = {'vim'},
+    --       },
+    --     },
+    --   },
+    -- }
 
     -- Globally configure all LSP floating preview popups (like hover, signature help, etc)
     local open_floating_preview = vim.lsp.util.open_floating_preview

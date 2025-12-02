@@ -3,6 +3,7 @@
     border-radius: 0px;
     /* font-family: VictorMono, Iosevka Nerd Font, Noto Sans CJK; */
     font-family: "Comic Sans MS";
+    /* font-family: "Maple Mono"; */
     /* font-family: ComicShanns mono nerd font; */
     font-size: 15px;
     /* font-style: normal; */
@@ -15,9 +16,10 @@ window#waybar {
     /* border-bottom-color: #00FF00; */
   border-style: solid;
   border-width: 0px 2px 3px 2px;
-  border-image: linear-gradient(45deg,rgba(255,0,0,0.7),rgba(255,127,0,0.7),rgba(255,255,0,0.7),rgba(0,255,0,0.7),rgba(0,0,255,0.7),rgba(75,0,130,0.7),rgba(148,0,211,0.7)) 1;
+  /* border-image: linear-gradient(45deg,rgba(255,0,0,0.7),rgba(255,127,0,0.7),rgba(255,255,0,0.7),rgba(0,255,0,0.7),rgba(0,0,255,0.7),rgba(75,0,130,0.7),rgba(148,0,211,0.7)) 1; */
+  /* border: rgba(255, 215, 0, 1); */
     /* border: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);; */
-    /* color: #f4d9e1 */
+    color: rgba(255, 215, 0, 0.7);
 }
 
 #workspaces {

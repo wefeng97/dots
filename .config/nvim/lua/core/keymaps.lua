@@ -146,10 +146,8 @@ keymap.set("n", "<Down>", "(v:count == 0 ? 'gj' : 'j')", { expr = true })
 -- keymap.set("n", "<Down>", "gj")
 -- keymap.set("n", "<Up>", "gk")
 
--- toggle comment in both modes 
-
--- keymap.set("n", "<leader>/", "gcc", {noremap = true})
--- keymap.set("v", "<leader>/", "gc", {noremap = true})
---
 -- Best map in the world 
 keymap.set("v", "p", "\"_dP", {noremap = true})
+
+-- Render-Markdown
+keymap.set("n", "<leader>m", ":RenderMarkdown toggle<CR>")
