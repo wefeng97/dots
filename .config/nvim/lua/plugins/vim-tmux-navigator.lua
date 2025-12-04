@@ -8,5 +8,11 @@ return {
   event = "VeryLazy",
   --  end
   --end,
+  keys = {
+    { "<C-h>", "<cmd>TmuxNavigateLeft<CR>", desc = "Navigate to left tmux pane" },
+    { "<C-j>", "<cmd>TmuxNavigateDown<CR>", desc = "Navigate to down tmux pane" },
+    { "<C-k>", "<cmd>TmuxNavigateUp<CR>", desc = "Navigate to up tmux pane" },
+    { "<C-l>", "<cmd>TmuxNavigateRight<CR>", desc = "Navigate to right tmux pane" },
+  },
 }
 

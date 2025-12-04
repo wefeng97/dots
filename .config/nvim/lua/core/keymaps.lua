@@ -118,10 +118,10 @@ keymap.set("n", '<leader>de', function() require('telescope.builtin').diagnostic
 
 -- tmux navigation
     -- switch between windows
-keymap.set("n", "<C-h>", "<cmd> TmuxNavigateLeft<CR>")
-keymap.set("n", "<C-l>", "<cmd> TmuxNavigateRight<CR>")
-keymap.set("n", "<C-j>", "<cmd> TmuxNavigateDown<CR>")
-keymap.set("n", "<C-k>", "<cmd> TmuxNavigateUp<CR>")
+-- keymap.set("n", "<C-h>", "<cmd> TmuxNavigateLeft<CR>")
+-- keymap.set("n", "<C-l>", "<cmd> TmuxNavigateRight<CR>")
+-- keymap.set("n", "<C-j>", "<cmd> TmuxNavigateDown<CR>")
+-- keymap.set("n", "<C-k>", "<cmd> TmuxNavigateUp<CR>")
 
 -- Better visualisation 
 keymap.set("n", "n", "nzz")
