@@ -49,7 +49,7 @@ return {
         --   behavior = cmp.ConfirmBehavior.Replace,
         --   select = true,
         -- },
-        ['<C-CR>'] = cmp.mapping.confirm {
+        ['<CR>'] = cmp.mapping.confirm {
           behavior = cmp.ConfirmBehavior.Replace,
           select = true,
         },

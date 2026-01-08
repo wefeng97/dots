@@ -151,3 +151,12 @@ keymap.set("v", "p", "\"_dP", {noremap = true})
 
 -- Render-Markdown
 keymap.set("n", "<leader>m", ":RenderMarkdown toggle<CR>")
+
+-- Copilot accept remap
+vim.g.copilot_assume_mapped = true
+vim.keymap.del('i', '<Tab>')
+vim.g.copilot_no_tab_map = true
+keymap.set('i', '<C-J>', 'copilot#Accept("\\<CR>")', {
+  expr = true,
+  replace_keycodes = false
+})
