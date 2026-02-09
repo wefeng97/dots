@@ -14,7 +14,7 @@ vim.opt.rtp:prepend(lazypath)
 
 -- This has to be set before initializing lazy
 vim.g.mapleader = " "
-
+vim.opt.undofile = true
 -- Initialize lazy with dynamic loading of anything in the plugins directory
 require("lazy").setup("plugins", {
   {import = "plugins.init"},

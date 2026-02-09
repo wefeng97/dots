@@ -9,6 +9,9 @@ local keymap = vim.keymap
 -- keymap.set("n", "<leader>ww", ":w<CR>") -- save
 keymap.set("n", "gx", ":!open <c-r><c-a><CR>") -- open URL under cursor
 
+-- Clear search highlights
+keymap.set("n", "<Esc>", ":nohlsearch<CR>")
+
 -- Split window management
 keymap.set("n", "<leader>v", "<C-w>v") -- split window vertically
 keymap.set("n", "<leader>h", "<C-w>s") -- split window horizontally
@@ -160,3 +163,8 @@ keymap.set('i', '<C-J>', 'copilot#Accept("\\<CR>")', {
   expr = true,
   replace_keycodes = false
 })
+-- Copilot disable
+keymap.set('n', '<leader>cd', ':Copilot disable<CR>')
+keymap.set('n', '<leader>ce', ':Copilot enable<CR>')
+
+
