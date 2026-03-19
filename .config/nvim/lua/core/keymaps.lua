@@ -23,7 +23,7 @@ keymap.set("n", "<leader>sl", "<C-w>>5") -- make split windows width bigger
 keymap.set("n", "<leader>sh", "<C-w><5") -- make split windows width smaller
 
 -- Tab management
-keymap.set("n", "<leader>o", ":tabnew ") -- open a new tab
+keymap.set("n", "<leader>t", ":tabnew ") -- open a new tab
 -- keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close a tab
 -- Customised
 keymap.set("n", "<tab>", ":tabn<CR>") -- next tab
@@ -167,4 +167,9 @@ keymap.set('i', '<C-J>', 'copilot#Accept("\\<CR>")', {
 keymap.set('n', '<leader>cd', ':Copilot disable<CR>')
 keymap.set('n', '<leader>ce', ':Copilot enable<CR>')
 
+-- Enable spell check
+keymap.set("n", "<leader>sc", ":setlocal spell! spelllang=en_gb<CR>")
 
+-- Obsidian utils
+keymap.set("n", "<leader>on", ":ObsidianNew ", { noremap = true }) -- create new note
+keymap.set("n", "<leader>od", ":ObsidianToday<CR> ", { noremap = true }) -- create new note with today's date

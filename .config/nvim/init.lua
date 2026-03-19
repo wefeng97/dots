@@ -1,4 +1,5 @@
 -- Bootstrap lazy
+-- vim.opt.rtp:prepend("/home/wefeng/.local/share/nvim/site")
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
   vim.fn.system({
@@ -14,6 +15,7 @@ vim.opt.rtp:prepend(lazypath)
 
 -- This has to be set before initializing lazy
 vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 vim.opt.undofile = true
 -- Initialize lazy with dynamic loading of anything in the plugins directory
 require("lazy").setup("plugins", {
