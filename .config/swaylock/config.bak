@@ -1,9 +1,9 @@
 # no-unlock-indicator
 image=/home/wefeng/Pictures/My_Wallpapers/SpiritedAway/wp8575978.png 
 # indicator
-indicator-idle-visible
+# indicator-idle-visible
 indicator-radius=70
-clock
+# clock
 # fade-in=3 
 line-uses-inside
 inside-color=<FFE5BF>
